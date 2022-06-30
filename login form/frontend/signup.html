@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-Up</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<script src="app.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!-- <div id="preloader"></div> -->
+	<img class="wave" src="./wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="./bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="./avatar.svg">
+				<h2 class="title">Welcome</h2>
+				<div class="input-div one">
+					<div class="i">
+							<i class="fas fa-user "></i>
+					</div>
+					<div class="div">
+							<h5>username</h5>
+							<input type="text" class="input" id="userName" autocomplete="off">
+					</div>
+				 </div>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fa fa-envelope"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Email</h5>
+           		   		<input type="text" class="input" id="gmail" autocomplete="off">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-key"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" id="pass" class="input" autocomplete="off">
+            	   </div>
+            	</div>
+                <div class="input-div pass">
+                    <div class="i"> 
+                         <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                         <h5>Confirm Password</h5>
+                         <input type="password" id="comfirmPass" class="input" autocomplete="off">
+                 </div>
+              </div>
+            	
+            	<!-- <input type="button"  class="btn" value="Login"> -->
+				<input type="button" class="btn" id="" value="Sign Up" onclick="signup()">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+	<!-- <script> -->
+		<!-- const validate =() =>{ -->
+
+		<!-- } -->
+	<!-- </script> -->
+</html>
